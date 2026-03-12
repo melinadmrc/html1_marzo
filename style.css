@@ -1,0 +1,60 @@
+.enlaceApple {
+  font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande","Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(226, 43, 89);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: blueviolet;
+  font-size: 20px;
+}
+
+a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: coral;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: none;
+  background-color: rgb(212, 226, 148);
+}
+
+body {
+  background-color: rgb(140, 177, 121);
+  margin: 0;
+  min-height: 100vh;
+
+  background-image: url("manzana roja.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.caja{
+
+  width: 100px;
+  height: 100px;
+  background-image: url(/manzanas\ verdes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+  cursor: pointer;
+
+  &:hover {background-image: url(/apple.png);
+
+  }
+
+}
+
+.enlaceArte{
+font-size: 14px;
+color: crimson;
+background-color: beige;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.tiendamanzanas{
+  font-size: 20px;
+  color: orange;
+  background-color: chartreuse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
